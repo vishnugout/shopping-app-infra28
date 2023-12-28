@@ -24,7 +24,7 @@ jobs:
           terraform init \
             -backend-config="bucket=${{ secrets.PROD_S3_BUCKET }}" \
             -backend-config="key=terraform.tfstate" \
-            -backend-config="region=${{ secrets.PROD_REGION }}" \
+            -backend-config="region=ap-south-1" \
             -backend-config="access_key=${{ secrets.PROD_ACCESS_KEY }}" \
             -backend-config="secret_key=${{ secrets.PROD_SECRET_KEY }}"
 
