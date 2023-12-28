@@ -2,9 +2,8 @@ name: Build for dev infra
 
 on:
   repository_dispatch:
-  types: [dev-deploy-event]
-  
-push:
+    types: [dev-deploy-event]
+  push:
     branches:
       - dev
 

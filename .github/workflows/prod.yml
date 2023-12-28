@@ -1,8 +1,8 @@
 name: "Prod Infra Build"
 
 on:
-   repository_dispatch:
-   types: [prod-deploy-event]
+  repository_dispatch:
+    types: [prod-deploy-event]
   push:
     branches:
       - prod
