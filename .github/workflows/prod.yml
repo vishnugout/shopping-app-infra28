@@ -1,4 +1,4 @@
-name: "Prod Infra Build"
+name: "Prod Infra Building"
 
 on:
   repository_dispatch:
